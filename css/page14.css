@@ -1,0 +1,265 @@
+/* header section */
+#header-container {
+    background-color: #2a7b83;
+    width: 100%;
+    z-index: 9;
+    position: relative;
+}
+ 
+.alphabet span {
+    /* font-size: larger;
+    font-weight: 600;
+    display: inline-block; */
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #86a5b1;
+    cursor: pointer;
+    position: relative;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+input[type="checkbox"]:checked::after {
+    content: '✔';
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    top: -2px;
+    left: 2px;
+}
+ 
+/* tree branch */
+.tree-container {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    gap: 10px;
+    margin: 20px;
+}
+ 
+.tree-label {
+    white-space: nowrap;
+}
+ 
+.tree-branches {
+    position: relative;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+ 
+.tree-branches::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 11px;
+    bottom: 0;
+    width: 1px;
+    background: black;
+    height: 78px;
+}
+ 
+.branch {
+    position: relative;
+    padding-left: 10px;
+}
+ 
+.branch::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    width: 10px;
+    height: 1px;
+    background: black;
+}
+ 
+ 
+.alphabet p {
+    display: inline-block;
+    line-height: normal;
+}
+ 
+.bold li::marker {
+    font-weight: bold;
+ 
+}
+ 
+.main-container {
+    padding: 25px 43px 18px 82px;
+    overflow: hidden;
+}
+ 
+.section {
+    display: flex;
+    height: auto;
+}
+ 
+.norma-container {
+    margin-left: 27px;
+    height: auto;
+}
+ 
+.norma {
+    color: #277684;
+    padding-top: 15px;
+}
+ 
+.items div {
+    line-height: 5px;
+ 
+}
+ 
+.gramatica-heading {
+    background-color: #277684;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 11px 6px;
+}
+ 
+.gramatica-body {
+    padding: 33px 33px 0 33px;
+    background-color: #F4F7F9;
+}
+ 
+.gramatica-body h6 {
+    color: #277684;
+    font-weight: 700;
+}
+ 
+.gramatica-body div {
+    border-bottom: #277684 dotted 9px;
+ 
+ 
+}
+ 
+.gramatica-footer {
+    display: flex;
+    justify-content: end;
+    color: #277684;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+ 
+.vocabulario-heading {
+    background-color: #9E1880;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 11px 6px;
+ 
+}
+ 
+.vocabulario-body h6 {
+    color: #9E1880;
+    font-weight: 700;
+ 
+}
+ 
+.vocabulario-body {
+    padding: 33px 33px 0 33px;
+    background-color: #F3EAF5;
+    line-height: 10px;
+}
+ 
+.vocabulario-body div {
+    border-bottom: #9E1880 dotted 9px;
+ 
+ 
+}
+ 
+.vocabulario-footer {
+    display: flex;
+    justify-content: end;
+    color: #9E1880;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+ 
+.vocabulario-body span {
+    font-weight: 700;
+}
+ 
+.arrow-mark-text {
+    margin-left: 350px;
+    line-height: 0px;
+}
+ 
+/*  */
+ 
+.audio-icon img {
+    width: 20px;
+}
+ 
+.normas-container {
+    background-color: #ECEFF9;
+    text-align: left;
+    /* padding: 0px; */
+    /* width: 900px !important; */
+    /* display: inline-block; */
+}
+ 
+.list-items {
+    display: flex;
+    margin-top: 12px;
+}
+ 
+ 
+.numbers p {
+    background-color: #005CA9;
+    border-radius: 13px;
+    margin: 9px;
+    padding: 1px 8px 3px 8px;
+    width: 27px;
+    color: #fff;
+    font-weight: 900;
+ 
+}
+ 
+@media (max-width: 768px) {
+    .main-container {
+        padding: 0;
+    }
+ 
+    .vocabulario-body {
+        line-height: normal;
+    }
+ 
+    .items div {
+        line-height: normal;
+    }
+ 
+    .arrow-mark-text {
+        margin-left: 0;
+        line-height: normal;
+    }
+ 
+    .col-md-6 img {
+        min-width: 100%;
+        min-height: 100%;
+    }
+ 
+    .normas-container {
+        width: 100% !important;
+    }
+ 
+    .tree-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+ 
+}

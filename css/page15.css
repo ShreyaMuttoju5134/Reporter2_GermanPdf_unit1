@@ -1,0 +1,139 @@
+/* header section */
+#header-container {
+    background-color: #2a7b83;
+    width: 100%;
+    z-index: 9;
+    position: relative;
+}
+
+/* Icon Styles */
+#humicon,
+#humbrain {
+    height: 25px;
+    width: 30px;
+    display: flex;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    background-color: #f0f3fd;
+    border: 1px solid #a2bfd1;
+    resize: none;
+    padding: 8px;
+    font-size: 14px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+/* Text Block Styles */
+#pa1 {
+    margin: -64px 50px 0 46px;
+}
+
+#spanD {
+    font-weight: 800;
+}
+
+#pa2 {
+    color: #2a7b83;
+}
+
+/* Normas Section */
+.normas-container {
+    background-color: #ECEFF9;
+    width: 100%;
+    /* margin: 100px 100px 25px 100px; */
+}
+
+/* List Styling */
+.list {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.numbers p {
+    background-color: #005CA9;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    /* line-height: 26px; */
+    margin: 0;
+}
+
+/* Vocabulary Boxes */
+.vocab-box {
+    background-color: #F3EAF5;
+    width: 80%;
+}
+
+.box-title {
+    font-weight: bold;
+    background-color: #9e1880;
+}
+
+.box-body {
+    color: black;
+    background-color: #F3EAF5;
+}
+
+/* Magnifying section */
+#magnifying {
+    width: 20px;
+    margin-right: 10px;
+    margin-left: -20px;
+    margin-bottom: -45px;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #86a5b1;
+    cursor: pointer;
+    position: relative;
+    margin-left: 5px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+input[type="checkbox"]:checked::after {
+    content: '✔';
+    color: red;
+    font-size: 14px;
+    position: absolute;
+    top: -2px;
+    left: 2px;
+}
+
+#sp1,
+#sp2,
+#sp3 {
+    display: block;
+    margin-left: 10px;
+}
+
+#sp2 {
+    border: 2px solid #277684;
+    padding: 4px;
+    margin-top: 5px;
+    width: fit-content;
+}
+
+#bold li::marker {
+    font-weight: bold;
+}
+
+/* Responsive tweaks */
+@media (max-width: 425px) {
+    .normas-container {
+        margin-left: -13%;
+    }
+}

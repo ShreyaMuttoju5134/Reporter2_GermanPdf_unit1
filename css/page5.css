@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* header */
+#header-container {
+    background-color: #2a7b83;
+    width: 100%;
+}
+
+/* activity -3 */
+.subtitle {
+    display: inline-block;
+    font-weight: bold;
+    color: #858181;
+    font-size: 12px;
+    border-radius: 15px;
+    margin: 5px 0;
+    padding: 5px 25px;
+    border: 1px solid #ada9a9;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #ada9a9;
+}
+
+.activity3a-label {
+    font-weight: bold;
+}
+
+/* section */
+#background-clip-wrapper {
+    background-color: #f0f8fa;
+    /* clip-path: polygon(0 0, 100% 0, 80 100%, 0% 100%); */
+    /* -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%); */
+}
+
+/* Text content styling */
+.wrap-container {
+    padding: 30px;
+    line-height: 1.6;
+    color: #222;
+}
+
+.profile-img {
+    float: left;
+    shape-outside: circle(50%);
+    clip-path: circle(50%);
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 10px 20px 10px 0;
+}
+
+.name-tag {
+    position: relative;
+    left: -95px;
+    top: 90px;
+    background-color: #00757d;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1em;
+    display: inline-block;
+    z-index: 1;
+}
+
+/* Full image with no clip */
+#background-clip-wrapper1 {
+    background-color: #f9f8de;
+    /* clip-path: polygon(0 0, 100% 0, 80 100%, 0% 100%); */
+    /* -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%); */
+}
+
+.right-image {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* image2 */
+.left-image {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.profile-img1 {
+    float: right;
+    shape-outside: circle(50%);
+    clip-path: circle(50%);
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 10px 20px 10px 0;
+}
+
+.name-tag1 {
+    position: relative;
+    right: -380px;
+    top: 90px;
+    background-color: #00757d;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1em;
+    display: inline-block;
+    z-index: 1;
+}
+
+
+
+/* gramatica */
+.grammar-box {
+    width: 200px;
+    color: white;
+    background-color: #eaf4f5;
+    font-size: 14px;
+    border-radius: 6px;
+    /* position: relative; */
+    padding: 10px;
+}
+
+.grammar-box .grammar-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    padding: 10px;
+    background-color: #1a7282;
+}
+
+.grammar-box .grammar-text {
+    color: #1a7282;
+    font-weight: bold;
+}
+
+.grammar-box .highlight {
+    background-color: yellow;
+    padding: 0 3px;
+}
+
+.grammar-box .example {
+    color: white;
+    font-weight: normal;
+    margin-bottom: 5px;
+    border-bottom: 1px dotted white;
+    display: inline-block;
+}
+
+.grammar-box .example b {
+    color: #1a7282;
+}
+
+.grammar-box .example span {
+    color: black;
+    font-weight: bold;
+}
+
+.grammar-box .page {
+    display: block;
+    margin-top: 4px;
+    color: #1a7282;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#hr {
+    border-top: 1px dashed #1a7282;
+}
+
+
+/* table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 850px;
+}
+
+th,
+td {
+    border: 1px solid #49909A;
+    padding: 10px;
+    vertical-align: top;
+}
+
+th {
+    background-color: #287784;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+th:first-child {
+    background-color: transparent;
+    border: transparent;
+
+}
+
+.row-header {
+    background-color: #287784;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    width: 140px;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+    background-color: #f0f3fd;
+    border: 1px solid #d3dce6;
+    resize: none;
+    padding: 6px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+textarea::placeholder {
+    color: #0074cc;
+}
+
+/* Mobile fix */
+@media (max-width: 1024px) {
+    /* image2 */
+    .name-tag1 {
+        position: relative;
+        right: -170px;
+        top: 90px;
+        background-color: #00757d;
+        color: white;
+        padding: 4px 12px;
+        border-radius: 6px;
+        font-weight: bold;
+        font-size: 1em;
+        display: inline-block;
+        z-index: 1;
+    }
+    #garmmar-col{
+        display: contents; 
+    }
+}

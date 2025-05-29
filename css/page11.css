@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* header */
+#header-container {
+    background-color: #2a7b83;
+    width: 100%;
+    z-index: 9;
+    position: relative;
+}
+
+/* activity -3 */
+
+.activity3a h4{
+    color: #2a7b83;
+     font-weight: bold;
+}
+
+.activity3a-label {
+    font-weight: bold;
+}
+
+.activity3a strong {
+    font-weight: bold;
+}

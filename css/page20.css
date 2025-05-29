@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* header section */
+#header-container {
+    background-color: #2a7b83;
+    width: 100%;
+    z-index: 9;
+    position: relative;
+}
+
+.head {
+    background-color: #277684;
+    height: 60px;
+}
+
+/* .main-container {
+    padding: 50px 80px;
+    margin: 5px;
+} */
+
+.col-md-12 {
+    display: flex;
+}
+
+.item-1 {
+    margin: 22px;
+}
+
+.col-md-12 .number {
+    display: flex;
+    height: 33px;
+    width: 36px;
+    color: #277684;
+    font-weight: 900;
+    padding: 12px;
+    border: solid #277684 2px;
+    border-radius: 48%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.item-body {
+    margin-left: 55px;
+}
+
+.item-body img {
+    height: auto;
+    width: 45%;
+}
+
+.speech-bubble {
+    display: inline-block;
+    border: 1px solid #277684;
+    border-radius: 12px 12px 12px 12px;
+    padding: 15px;
+    width: fit-content;
+    width: 75%;
+    margin: 20px 20px 20px 55px;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+/* The tail of the speech bubble */
+.speech-bubble::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #fff;
+    border-bottom: 0;
+    margin-left: -10px;
+    box-shadow: 1px 1px 0 0 #277684;
+}
+
+/* Dotted underline spans */
+.dotted-underline {
+    display: inline-block;
+    border-bottom: 1px dotted #666;
+    vertical-align: bottom;
+}
+
+.dotted-underline.small {
+    width: 50px;
+    margin: 0 5px;
+}
+
+.dotted-underline.large {
+    width: 150px;
+    margin: 0 5px;
+}
+
+.tasks {
+    display: flex;
+    gap: 20px;
+
+}
+
+.gramatica-heading {
+    background-color: #277684;
+    color: #ffffff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 0px 10px;
+}
+
+.gramatica-body {
+    margin: 0;
+    padding: 10px 24px 0px 30px;
+    background-color: #F4F7F9;
+}
+
+.gramatica-body h5 {
+    color: #277684;
+    padding: 0;
+    font-weight: 700;
+    margin: 0;
+}
+
+.gramatica-body div {
+    border-bottom: #277684 dotted 9px;
+    padding-top: 12px;
+
+
+}
+
+.gramatica-body .left {
+    color: #9E1880;
+    font-weight: 800;
+
+}
+
+.gramatica-body .left-1 {
+    color: #6F6F6E;
+}
+
+.gramatica-body .right-1 {
+    margin-left: 80px;
+}
+
+.gramatica-body .right-2 {
+    margin-left: 87px;
+}
+
+.gramatica-body .right-3 {
+    margin-left: 87px;
+}
+
+.gramatica-body .right-4 {
+    margin-left: 74px;
+}
+
+.gramatica-body .right-5 {
+    margin-left: 84px;
+}
+
+.gramatica-body .right-6 {
+    margin-left: 78px;
+}
+
+
+.gramatica-footer {
+    display: flex;
+    justify-content: end;
+    color: #277684;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.row .col-md-3 {
+    width: 258px;
+    height: 115px;
+    margin-left: 79px;
+}
+
+.VOCABULARIO-heading {
+    background-color: #9E1880;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 0px 10px;
+
+}
+
+.VOCABULARIO-body {
+    margin: 0;
+    padding: 10px 24px 0px 30px;
+    background-color: #F4F7F9;
+    line-height: 10px;
+}
+
+.VOCABULARIO-body h5 {
+    color: #9E1880;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+}
+
+.VOCABULARIO-body div {
+    border-bottom: #9E1880 dotted 9px;
+    padding-top: 12px;
+}
+
+.VOCABULARIO-footer {
+    display: flex;
+    justify-content: end;
+    color: #9E1880;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+@media (max-width: 768px) {
+    .main-container {
+        margin: 0;
+    }
+
+    .head {
+        margin: 0;
+        min-width: 100%;
+    }
+}
