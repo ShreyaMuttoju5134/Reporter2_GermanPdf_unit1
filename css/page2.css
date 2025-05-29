@@ -67,7 +67,7 @@ body {
     background-color: #00757d;
     color: white;
     padding: 4px 12px;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     font-weight: bold;
     font-size: 1em;
     display: inline-block;
@@ -76,7 +76,7 @@ body {
 
 /* Full image with no clip */
 #background-clip-wrapper1 {
-    background-color: #f9f8de;
+    background-color: #f9f9f9;
     /* clip-path: polygon(0 0, 100% 0, 80 100%, 0% 100%); */
     /* -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%); */
 }
@@ -108,31 +108,14 @@ body {
     position: relative;
     right: -380px;
     top: 90px;
-    background-color: #00757d;
+    background-color: rgb(76, 75, 75);
     color: white;
     padding: 4px 12px;
-    border-radius: 6px;
+    /* border-radius: 6px; */
     font-weight: bold;
     font-size: 1em;
     display: inline-block;
     z-index: 1;
-}
-
-/* Mobile fix */
-@media (max-width: 768px) {
-    .name-tag1 {
-        position: relative;
-        right: -170px;
-        top: 90px;
-        background-color: #00757d;
-        color: white;
-        padding: 4px 12px;
-        border-radius: 6px;
-        font-weight: bold;
-        font-size: 1em;
-        display: inline-block;
-        z-index: 1;
-    }
 }
 
 /* gramatica */
@@ -191,4 +174,47 @@ body {
 
 #hr {
     border-top: 1px dashed #1a7282;
+}
+
+/* Mobile fix */
+@media (max-width: 324px) {
+    .name-tag1 {
+        margin-left: -200%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .name-tag1 {
+        margin-left: -140%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .name-tag1 {
+        margin-left: -95%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .name-tag1 {
+        margin-left: -65%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .name-tag1 {
+        margin-left: -100%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .name-tag1 {
+        margin-left: -45%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .name-tag1 {
+        left: 29rem;
+    }
 }

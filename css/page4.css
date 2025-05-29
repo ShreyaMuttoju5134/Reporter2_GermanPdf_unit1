@@ -173,24 +173,10 @@ body {
     margin: 5px 5px 0 0;
 }
 
-/* .fill-sentence {
-    margin-bottom: 16px;
-    font-size: 20px;
-    color: #1565c0;
-    font-weight: 400;
-} */
-
-/* .sentence-line {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    border-bottom: 2px dotted #999;
-    padding-bottom: 2px;
-} */
-
 .static-text {
     white-space: nowrap;
     margin-right: 4px;
+    color: #2a7b83;
 }
 
 .input-field-activity3 {
@@ -201,7 +187,7 @@ body {
     font-size: 20px;
     color: #1565c0;
     flex: 1;
-    /* min-width: 700px; */
+    width: 100%; 
 }
 
 /* grammar box */
@@ -295,12 +281,89 @@ body {
 }
 
 /* Mobile fix */
+@media (max-width: 320px) {
+
+    /* header section */
+    .fitch-title {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    /* grammar box */
+    .grammar-box {
+        left: 3rem;
+    }
+
+    .custom-img {
+        margin-left: -65px;
+    }
+
+    .caption {
+        margin-right: 130px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    /* grammar box */
+    .grammar-box {
+        right: 2rem;
+    }
+}
+
+@media (max-width: 374px) {
+
+    /* grammar box */
+    .grammar-box {
+        margin-left: 50%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+
+    /* grammar box */
+    .grammar-box {
+        margin-left: 50%;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    /* grammar box */
+    .grammar-box {
+        margin-left: 50%;
+    }
+}
+
 @media (max-width: 768px) {
+
+    /* activity 3 */
+    .sentence-line {
+        flex-wrap: wrap;
+    }
+
+    .input-field_activity3 {
+        margin-top: 6px;
+        width: 100%;
+    }
+
+    /* grammar box */
+    .grammar-box { 
+        left: -4rem;
+    }
+
+    /* header section */
+    .fitch-title {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
 
     /* images */
     .image-wrapper {
         position: static;
         margin-bottom: 2rem;
+        margin-left: 50px;
     }
 
     .lavapies {
@@ -308,12 +371,10 @@ body {
         left: 0;
     }
 
-    /* leccion header */
+    /* Leccion Header */
     .unit-banner {
         position: relative;
-        /* 🔄 Instead of absolute */
         margin: 0 auto 1rem auto;
-        /* center it and add spacing below */
         top: unset;
         right: unset;
         left: unset;
@@ -342,47 +403,5 @@ body {
         flex-direction: column;
         align-items: center;
         text-align: center;
-    }
-
-    /* activity-3 */
-    .sentence-line {
-        flex-wrap: wrap;
-    }
-
-    .input-field_activity3 {
-        margin-top: 6px;
-        width: 100%;
-    }
-
-    /* grammar box */
-    .grammar-box {
-        left: -4rem;
-    }
-}
-
-@media (max-width: 320px) {
-
-    /* grammar box */
-    .grammar-box {
-        left: 3rem;
-        margin-top: 10px;
-    }
-}
-
-@media (max-width: 375px) {
-
-    /* grammar box */
-    .grammar-box {
-        right: -5rem;
-        margin-top: 10px;
-    }
-}
-
-@media (max-width: 425px) {
-
-    /* grammar box */
-    .grammar-box {
-        right: -5rem;
-        margin-top: 10px;
     }
 }

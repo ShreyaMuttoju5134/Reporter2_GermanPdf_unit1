@@ -201,12 +201,10 @@ body {
     font-size: 20px;
     color: #1565c0;
     flex: 1;
-    /* min-width: 700px; */
 }
 
 
 /* grammar box */
-
 .grammar-box {
     width: 200px;
     color: white;
@@ -215,7 +213,6 @@ body {
     border-radius: 6px;
     position: relative;
     padding: 10px;
-    /* right: 1.5rem; */
 }
 
 
@@ -330,11 +327,28 @@ body {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 374px) {
 
     /* grammar box */
     .grammar-box {
-        left: 7rem !important;
+        margin-left: 50%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+
+    /* grammar box */
+    .grammar-box {
+        margin-left: 50%;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    /* grammar box */
+    .grammar-box {
+        margin-left: 50%;
     }
 }
 
@@ -353,7 +367,7 @@ body {
     /* grammar box */
     .grammar-box {
         /* left: 6rem; */
-        left: -6rem;
+        left: -4rem;
     }
 
     /* header section */
@@ -367,7 +381,6 @@ body {
         position: static;
         margin-bottom: 2rem;
         margin-left: 50px;
-        /* margin-left: 100px; */
     }
 
     .lavapies {
@@ -378,9 +391,7 @@ body {
     /* Leccion Header */
     .unit-banner {
         position: relative;
-        /* 🔄 Instead of absolute */
         margin: 0 auto 1rem auto;
-        /* center it and add spacing below */
         top: unset;
         right: unset;
         left: unset;
