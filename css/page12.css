@@ -89,7 +89,7 @@ body {
     padding-top: 20px;
     text-align: center;
     font-family: sans-serif;
-    top: 0.5rem;
+    top: -0.5rem;
     right: 4rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
@@ -209,7 +209,7 @@ body {
 .grammar-box {
     width: 200px;
     color: white;
-    background-color: rgb(252, 221, 252);
+    background-color: #F3EAF5;
     font-size: 14px;
     border-radius: 6px;
     /* position: relative; */
@@ -217,16 +217,29 @@ body {
 }
 
 .grammar-box .grammar-title {
+    padding: 0;
+}
+
+.grammar-box {
+    padding: 0;
+}
+
+.grammar-box .grammar-title {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 8px;
     padding: 10px;
-    background-color: purple;
+    background-color: #9E1880;
 }
 
 .grammar-box .grammar-text {
-    color: purple;
+    color: #9E1880;
     font-weight: bold;
+    padding-left: 24px;
+}
+
+.grammar-text b {
+    color: black;
 }
 
 .grammar-box .highlight {
@@ -240,10 +253,11 @@ body {
     margin-bottom: 5px;
     border-bottom: 1px dotted white;
     display: inline-block;
+    padding: 10px;
 }
 
 .grammar-box .example b {
-    color: purple;
+    color: black;
 }
 
 .grammar-box .example span {
@@ -254,13 +268,13 @@ body {
 .grammar-box .page {
     display: block;
     margin-top: 4px;
-    color: purple;
+    color: #9E1880;
     font-size: 12px;
     font-weight: bold;
 }
 
 #hr {
-    border-top: 1px dashed purple;
+    border-top: 1px dashed #9E1880;
 }
 
 /* images */
@@ -352,8 +366,7 @@ body {
 
     /* grammar box */
     .grammar-box {
-        /* left: 6rem; */
-        /* left: -6rem; */
+        margin-left: -33px !important;
 
     }
 
@@ -363,8 +376,8 @@ body {
 
     /* header section */
     .fitch-title {
-        margin-left: 10px;
-        margin-top: 5px;
+        display: flex;
+        justify-content: center;
     }
 
     /* images */

@@ -1,11 +1,6 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+body{
+    overflow-x: hidden;
 }
-
-
-
 
 .part3 {
     display: flex;
@@ -22,7 +17,7 @@
 
 #header-container {
     background-color: #2a7b83;
-    width: 100%;
+    width: 115%;
 }
 
 .speech-bubble {
@@ -49,7 +44,7 @@
 }
 
 .para1 {
-    display: flex;
+    /* display: flex; */
     gap: 7px;
 
 }

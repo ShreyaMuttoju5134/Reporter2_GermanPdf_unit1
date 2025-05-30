@@ -13,9 +13,9 @@ body {
 
 /* activity -3 */
 
-.activity3a h4{
+.activity3a h4 {
     color: #2a7b83;
-     font-weight: bold;
+    font-weight: bold;
 }
 
 .activity3a-label {
@@ -24,4 +24,9 @@ body {
 
 .activity3a strong {
     font-weight: bold;
+}
+
+#activity3a-list li::marker {
+    font-weight: 900;
+
 }

@@ -230,14 +230,16 @@ body {
 }
 
 .styled-input {
-  background-color: #f1f3fe;  /* light blue */
-  border: 1px solid #89a4c4;  /* subtle border */
-  padding: 0.5em;
-  margin-top: 0.5em;
-  width: 100%;
-  max-width: 600px;
-  display: block;
-  box-sizing: border-box;
+    background-color: #f1f3fe;
+    /* light blue */
+    border: 1px solid #89a4c4;
+    /* subtle border */
+    padding: 0.5em;
+    margin-top: 0.5em;
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    box-sizing: border-box;
 }
 
 

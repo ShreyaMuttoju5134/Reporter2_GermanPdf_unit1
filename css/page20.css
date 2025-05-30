@@ -6,14 +6,9 @@ body {
 /* header section */
 #header-container {
     background-color: #2a7b83;
-    width: 100%;
+    width: 120%;
     z-index: 9;
     position: relative;
-}
-
-.head {
-    background-color: #277684;
-    height: 60px;
 }
 
 /* .main-container {
@@ -22,7 +17,7 @@ body {
 } */
 
 .col-md-12 {
-    display: flex;
+    /* display: flex; */
 }
 
 .item-1 {
@@ -125,7 +120,7 @@ body {
 }
 
 .gramatica-body div {
-    border-bottom: #277684 dotted 9px;
+    border-bottom: #277684 dotted 2px;
     padding-top: 12px;
 
 
@@ -194,7 +189,8 @@ body {
 .VOCABULARIO-body {
     margin: 0;
     padding: 10px 24px 0px 30px;
-    background-color: #F4F7F9;
+    background-color: #f4eaf5;
+;
     line-height: 10px;
 }
 
@@ -206,7 +202,7 @@ body {
 }
 
 .VOCABULARIO-body div {
-    border-bottom: #9E1880 dotted 9px;
+    border-bottom: #9E1880 dotted 2px;
     padding-top: 12px;
 }
 

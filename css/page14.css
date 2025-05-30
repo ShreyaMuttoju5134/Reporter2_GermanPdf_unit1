@@ -5,7 +5,7 @@
     z-index: 9;
     position: relative;
 }
- 
+
 .alphabet span {
     /* font-size: larger;
     font-weight: 600;
@@ -34,7 +34,7 @@ input[type="checkbox"]:checked::after {
     top: -2px;
     left: 2px;
 }
- 
+
 /* tree branch */
 .tree-container {
     display: flex;
@@ -43,11 +43,11 @@ input[type="checkbox"]:checked::after {
     gap: 10px;
     margin: 20px;
 }
- 
+
 .tree-label {
     white-space: nowrap;
 }
- 
+
 .tree-branches {
     position: relative;
     padding-left: 10px;
@@ -56,7 +56,7 @@ input[type="checkbox"]:checked::after {
     justify-content: space-between;
     height: 100px;
 }
- 
+
 .tree-branches::before {
     content: '';
     position: absolute;
@@ -67,12 +67,12 @@ input[type="checkbox"]:checked::after {
     background: black;
     height: 78px;
 }
- 
+
 .branch {
     position: relative;
     padding-left: 10px;
 }
- 
+
 .branch::before {
     content: '';
     position: absolute;
@@ -82,43 +82,43 @@ input[type="checkbox"]:checked::after {
     height: 1px;
     background: black;
 }
- 
- 
+
+
 .alphabet p {
     display: inline-block;
     line-height: normal;
 }
- 
+
 .bold li::marker {
     font-weight: bold;
- 
+
 }
- 
+
 .main-container {
     padding: 25px 43px 18px 82px;
     overflow: hidden;
 }
- 
+
 .section {
     display: flex;
     height: auto;
 }
- 
+
 .norma-container {
     margin-left: 27px;
     height: auto;
 }
- 
+
 .norma {
     color: #277684;
     padding-top: 15px;
 }
- 
+
 .items div {
     line-height: 5px;
- 
+
 }
- 
+
 .gramatica-heading {
     background-color: #277684;
     color: #fff;
@@ -128,23 +128,23 @@ input[type="checkbox"]:checked::after {
     justify-content: center;
     padding: 16px 11px 6px;
 }
- 
+
 .gramatica-body {
     padding: 33px 33px 0 33px;
     background-color: #F4F7F9;
 }
- 
+
 .gramatica-body h6 {
     color: #277684;
     font-weight: 700;
 }
- 
+
 .gramatica-body div {
     border-bottom: #277684 dotted 9px;
- 
- 
+
+
 }
- 
+
 .gramatica-footer {
     display: flex;
     justify-content: end;
@@ -152,7 +152,7 @@ input[type="checkbox"]:checked::after {
     padding-top: 12px;
     padding-bottom: 12px;
 }
- 
+
 .vocabulario-heading {
     background-color: #9E1880;
     color: #fff;
@@ -161,27 +161,27 @@ input[type="checkbox"]:checked::after {
     align-items: center;
     justify-content: center;
     padding: 16px 11px 6px;
- 
+
 }
- 
+
 .vocabulario-body h6 {
     color: #9E1880;
     font-weight: 700;
- 
+
 }
- 
+
 .vocabulario-body {
     padding: 33px 33px 0 33px;
     background-color: #F3EAF5;
     line-height: 10px;
 }
- 
+
 .vocabulario-body div {
     border-bottom: #9E1880 dotted 9px;
- 
- 
+
+
 }
- 
+
 .vocabulario-footer {
     display: flex;
     justify-content: end;
@@ -189,22 +189,22 @@ input[type="checkbox"]:checked::after {
     padding-top: 12px;
     padding-bottom: 12px;
 }
- 
+
 .vocabulario-body span {
     font-weight: 700;
 }
- 
+
 .arrow-mark-text {
     margin-left: 350px;
     line-height: 0px;
 }
- 
+
 /*  */
- 
+
 .audio-icon img {
     width: 20px;
 }
- 
+
 .normas-container {
     background-color: #ECEFF9;
     text-align: left;
@@ -212,13 +212,13 @@ input[type="checkbox"]:checked::after {
     /* width: 900px !important; */
     /* display: inline-block; */
 }
- 
+
 .list-items {
     display: flex;
     margin-top: 12px;
 }
- 
- 
+
+
 .numbers p {
     background-color: #005CA9;
     border-radius: 13px;
@@ -227,39 +227,39 @@ input[type="checkbox"]:checked::after {
     width: 27px;
     color: #fff;
     font-weight: 900;
- 
+
 }
- 
+
 @media (max-width: 768px) {
     .main-container {
         padding: 0;
     }
- 
+
     .vocabulario-body {
         line-height: normal;
     }
- 
+
     .items div {
         line-height: normal;
     }
- 
+
     .arrow-mark-text {
         margin-left: 0;
         line-height: normal;
     }
- 
+
     .col-md-6 img {
         min-width: 100%;
         min-height: 100%;
     }
- 
+
     .normas-container {
         width: 100% !important;
     }
- 
+
     .tree-container {
         flex-direction: column;
         align-items: flex-start;
     }
- 
+
 }

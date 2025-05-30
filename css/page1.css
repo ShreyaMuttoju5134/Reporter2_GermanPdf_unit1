@@ -300,9 +300,8 @@ body {
 @media (max-width: 320px) {
 
     /* header section */
-    .fitch-title {
-        margin-left: 10px;
-        margin-top: 5px;
+    .text-md-start {
+       margin-left: -20%;
     }
 
     /* grammar box */
@@ -341,6 +340,10 @@ body {
     .grammar-box {
         margin-left: 50%;
     }
+     /* header section */
+    .text-md-start {
+       margin-left: -18%;
+    }
 
 }
 
@@ -350,6 +353,11 @@ body {
     .grammar-box {
         margin-left: 50%;
     }
+     /* header section */
+    .text-md-start {
+       margin-left: -15%;
+    }
+    
 }
 
 @media (max-width: 768px) {
@@ -372,7 +380,7 @@ body {
 
     /* header section */
     .fitch-title {
-        margin-left: 10px;
+        margin-left: 50px;
         margin-top: 5px;
     }
 
