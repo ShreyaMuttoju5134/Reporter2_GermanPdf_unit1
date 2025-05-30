@@ -114,7 +114,8 @@ body {
     /* border-radius: 6px; */
     font-weight: bold;
     font-size: 1em;
-    display: inline-block;
+    /* display: inline-block; */
+    display: none;
     z-index: 1;
 }
 
