@@ -55,12 +55,12 @@ body {
 }
 
 .content2 {
-    padding-left: 14px;
+    /* padding-left: 14px; */
     padding-top: 30px;
 }
 
 .dialogue {
-    max-width: 500px;
+    /* max-width: 500px; */
     margin: 0;
 }
 
@@ -72,7 +72,7 @@ body {
 
 .speaker {
     font-weight: bold;
-    width: 120px;
+    width: 152px; 
 }
 
 .blue-box {
@@ -112,6 +112,7 @@ body {
 
 .header-grammar {
     background-color: #007c91;
+    width: 240px;
     color: #fff;
     padding: 10px;
     font-weight: bold;
@@ -120,10 +121,12 @@ body {
  
 .section-title {
     color: #007894;
+    
 }
 
 .header-vocab {
     background-color: #9d198d;
+    width: 240px;
     color: #fff;
     padding: 10px;
     font-weight: bold;
@@ -133,6 +136,7 @@ body {
 .section-content {
     background-color: #f5f6fa;
     padding: 15px;
+    width: 240px;
 }
 
 .section-content.vocab {

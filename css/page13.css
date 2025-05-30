@@ -149,26 +149,12 @@ input[type="checkbox"]:checked::after {
     font-weight: bold;
 }
 
-#hr1 {
-    border-top: 1px dashed purple;
-}
+/* vocabulary box */
+/* header section */
 
-.volcab-footer {
-    /* display: flex; */
-    /* justify-content: end; */
-    /* color: #277684;  */
-    display: block;
-    margin-top: 4px;
-    color: purple;
-    font-size: 12px;
-    font-weight: bold;
-}
+/* section 1 */
 
-aside {
-    display: flex;
-    gap: 20px;
-    margin-left: 75px;
-}
+/* grammar box */
 
 .vocabulario-heading {
     background-color: #9E1880;
@@ -211,6 +197,80 @@ aside {
     font-weight: 700;
 }
 
+/*  */
+
+@media (max-width: 768px) {
+
+    .vocabulario-body {
+        line-height: normal;
+    }
+
+
+
+}
+
+#hr1 {
+    border-top: 1px dashed purple;
+}
+
+.volcab-footer {
+    /* display: flex; */
+    /* justify-content: end; */
+    /* color: #277684;  */
+    display: block;
+    margin-top: 4px;
+    color: purple;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+aside {
+    display: flex;
+    gap: 20px;
+    margin-left: 75px;
+}
+
+.vocabulario-heading {
+    background-color: #9E1880;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 11px 6px;
+
+}
+
+.vocabulario-body h6 {
+    color: #9E1880;
+    font-weight: 700;
+
+}
+
+.vocabulario-body {
+    padding: 33px 10px 0 10px;
+    background-color: #F3EAF5;
+    line-height: 10px;
+}
+
+.vocabulario-body div {
+    border-bottom: #9E1880 dotted 9px;
+
+
+}
+
+.vocabulario-footer {
+    display: flex;
+    justify-content: end;
+    color: #9E1880;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.vocabulario-body span {
+    font-weight: 700;
+}
+
 .arrow-mark-text {
     margin-left: 350px;
     line-height: 0px;
@@ -226,7 +286,7 @@ aside {
     background-color: #ECEFF9;
     padding: 15px;
     /* width: 900px !important; */
-    margin: 16px 10px -1px 0;
+    margin: 0 10px -1px 0;
 }
 
 .list-items {
@@ -270,7 +330,7 @@ aside {
     }
 
     .normas-container {
-        width: 100% !important;
+        min-width: 100% !important;
     }
 
 

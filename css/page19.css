@@ -125,6 +125,10 @@ body {
     color: #1a7282;
 }
 
+.section-title1 {
+    color: #9E1981;
+}
+
 .circle-number {
     display: inline-block;
     background-color: #1a7282;
@@ -150,6 +154,9 @@ body {
     box-shadow: 0 0 0 3px #fff, 0 0 0 4px #ada9a9;
 }
 
+.mt-3 {
+    margin-left: 30px;
+}
 
 .activity3a-label {
     font-weight: bold;
@@ -160,7 +167,7 @@ body {
 }
 
 .adjectives {
-    margin: 15px 0;
+    margin: 15px 30px;
 }
 
 .tag {
@@ -299,119 +306,6 @@ body {
     z-index: 1;
 }
 
-/* Mobile fix */
-@media (max-width: 320px) {
-
-    /* header section */
-    .fitch-title {
-        margin-left: 10px;
-        margin-top: 5px;
-    }
-
-    /* grammar box */
-    .grammar-box {
-        left: 3rem;
-    }
-
-    .custom-img {
-        margin-left: -65px;
-    }
-
-    .caption {
-        margin-right: 130px;
-    }
-}
-
-@media (max-width: 1024px) {
-
-    /* grammar box */
-    .grammar-box {
-        right: 2rem;
-    }
-}
-
-@media (max-width: 425px) {
-
-    /* grammar box */
-    .grammar-box {
-        left: 7rem !important;
-    }
-}
-
-@media (max-width: 768px) {
-
-    /* activity 3 */
-    .sentence-line {
-        flex-wrap: wrap;
-    }
-
-    .input-field_activity3 {
-        margin-top: 6px;
-        width: 100%;
-    }
-
-    /* grammar box */
-    .grammar-box {
-        /* left: 6rem; */
-        left: -6rem;
-    }
-
-    /* header section */
-    .fitch-title {
-        margin-left: 40px;
-        margin-top: 5px;
-    }
-
-    /* images */
-    .image-wrapper {
-        position: static;
-        margin-bottom: 2rem;
-        margin-left: 50px;
-        /* margin-left: 100px; */
-    }
-
-    .lavapies {
-        top: 0;
-        left: 0;
-    }
-
-    /* Leccion Header */
-    .unit-banner {
-        position: relative;
-        /* 🔄 Instead of absolute */
-        margin: 0 auto 1rem auto;
-        /* center it and add spacing below */
-        top: unset;
-        right: unset;
-        left: unset;
-        transform: none;
-        width: 80px;
-        height: 140px;
-        font-size: 12px;
-        display: block;
-    }
-
-    .unit-text {
-        font-size: 14px;
-        margin-bottom: 6px;
-    }
-
-    .unit-number {
-        font-size: 60px;
-    }
-
-    .unit-banner::after {
-        width: 28px;
-        height: 28px;
-    }
-
-    .row.text-white.align-items-center {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-}
-
 /* raviteja */
 .bubble-box {
     border: 0px solid #2a6e79;
@@ -542,6 +436,7 @@ ul {
     height: 26px;
     border-radius: 50%;
     text-align: center;
+    margin-right: 10px;
 }
 
 .header2 {
@@ -549,9 +444,7 @@ ul {
     display: flex;
 }
 
-.sentence {
-    /* padding-left: 8px; */
-}
+
 
 .highlight {
     background-color: yellow;
@@ -618,4 +511,141 @@ ul {
 
 .form-select-sm {
     font-size: 0.9rem;
+}
+
+/* Mobile fix */
+@media (max-width: 320px) {
+
+    /* header section */
+    .text-md-start {
+        margin-left: -20%;
+    }
+
+    /* grammar box */
+    .grammar-box {
+        left: 3rem;
+    }
+
+    .custom-img {
+        margin-left: -65px;
+    }
+
+    .caption {
+        margin-right: 130px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    /* grammar box */
+    .grammar-box {
+        right: 2rem;
+    }
+}
+
+@media (max-width: 374px) {
+
+    /* grammar box */
+    .grammar-box {
+        margin-left: 50%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+
+    /* grammar box */
+    .grammar-box {
+        margin-left: 50%;
+    }
+
+    /* header section */
+    .text-md-start {
+        margin-left: -18%;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    /* grammar box */
+    .grammar-box {
+        margin-left: 50%;
+    }
+
+    /* header section */
+    .text-md-start {
+        margin-left: -15%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* activity 3 */
+    .sentence-line {
+        flex-wrap: wrap;
+    }
+
+    .input-field_activity3 {
+        margin-top: 6px;
+        width: 100%;
+    }
+
+    /* grammar box */
+    .grammar-box {
+        /* left: 6rem; */
+        left: -4rem;
+    }
+
+    /* header section */
+    .fitch-title {
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+
+    /* images */
+    .image-wrapper {
+        position: static;
+        margin-bottom: 2rem;
+        margin-left: 50px;
+    }
+
+    .lavapies {
+        top: 0;
+        left: 0;
+    }
+
+    /* Leccion Header */
+    .unit-banner {
+        position: relative;
+        margin: 0 auto 1rem auto;
+        top: unset;
+        right: unset;
+        left: unset;
+        transform: none;
+        width: 80px;
+        height: 140px;
+        font-size: 12px;
+        display: block;
+    }
+
+    .unit-text {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+    .unit-number {
+        font-size: 60px;
+    }
+
+    .unit-banner::after {
+        width: 28px;
+        height: 28px;
+    }
+
+    .row.text-white.align-items-center {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
